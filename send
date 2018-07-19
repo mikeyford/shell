@@ -1,0 +1,9 @@
+#!/bin/bash
+#send
+
+send () {
+    _PWD=${PWD}
+    pushd $~/witan.send/
+    lein run ${_PWD}
+    popd
+}
