@@ -2,5 +2,5 @@
 
 cd ~/notes
 git add -u
-git commit -m "add changes"
+git commit -m "crontab push updates"
 git push origin master
