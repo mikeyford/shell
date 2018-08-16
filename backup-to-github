@@ -1,0 +1,17 @@
+#!/bin/bash
+
+cd ~/notes
+git add -u
+git commit -m "update by cron"
+git push origin master
+
+cd ~/.emacs.d
+git add .
+git commit -m "update by cron"
+git push origin master
+
+cd ~/shell
+git add -u
+git commit -m "update by cron"
+git push origin master
+

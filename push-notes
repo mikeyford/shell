@@ -1,6 +1,0 @@
-#!/bin/bash
-
-cd ~/notes
-git add -u
-git commit -m "crontab push updates"
-git push origin master
