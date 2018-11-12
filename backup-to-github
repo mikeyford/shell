@@ -16,6 +16,7 @@ git commit -m "update by cron"
 git push origin master
 
 cd ~/brewfile
+rm Brewfile
 brew bundle dump
 git add -u
 git commit -m "update by cron"
