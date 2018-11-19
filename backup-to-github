@@ -25,6 +25,6 @@ echo "brew"
 cd ~/brewfile
 rm Brewfile
 brew bundle dump
-git add .
+git add Brewfile
 git commit -m "update by cron"
 git push origin master
