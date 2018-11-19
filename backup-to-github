@@ -5,7 +5,7 @@ git add -u
 git commit -m "update by cron"
 git push origin master
 
-cd ~/.emacs.d
+cd ~/prelude-config
 git add .
 git commit -m "update by cron"
 git push origin master
