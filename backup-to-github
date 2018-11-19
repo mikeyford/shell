@@ -1,20 +1,27 @@
 #!/bin/bash
 
+echo "notes"
 cd ~/notes
 git add -u
 git commit -m "update by cron"
 git push origin master
+echo "--------------------------"
 
+echo "emacs"
 cd ~/prelude-config
 git add .
 git commit -m "update by cron"
 git push origin master
+echo "--------------------------"
 
+echo "shell"
 cd ~/shell
 git add -u
 git commit -m "update by cron"
 git push origin master
+echo "--------------------------"
 
+echo "brew"
 cd ~/brewfile
 rm Brewfile
 brew bundle dump
